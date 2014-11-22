@@ -1,0 +1,10 @@
+<toolboxmacros>
+ <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="GBUFFERS - Toggle through all available GBuffer debug views">
+  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','gbuffers')" bVariableToggle="0"/>
+ </macro>
+ <!-- to be reinstated using ATL
+ <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="SOUNDFX - Toggle through all available Sound debug views">
+  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','soundfx')" bVariableToggle="0"/>
+ </macro>
+ -->
+</toolboxmacros>

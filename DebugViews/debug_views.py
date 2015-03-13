@@ -13,9 +13,7 @@ if 'CVARS' not in globals():
 			'profiling' : [],
 			'ai' : [],
 			'art' : [],
-			'tester' : [],
 			'materialfx' : [],
-			'setrainvalues' : [],
 			'soundfx' : [],
 			}
 
@@ -251,23 +249,7 @@ def art():
 		eDebugDraw.add_value(22, 'Current LOD index and its corrisponding vertex count for each object.')
 		
 		eDebugDraw.next_value()
-
-def tester():
-	'''Test Related things.'''
-	general.log('Debug Views: WARNING - Unable to set r_wireframe 1')
-
-def setrainvalues():
-	#spits out the code for the rain values for faster tweaking
-	properties = ['amount','darkening','reflectionAmount','puddlesAmount','puddlesMaskAmount','puddlesRippleAmount','dropsAmount','dropsLighting','dropsSpeed','splashesAmount',]
-	general.log(properties)
-	retVal = 'self:SetRainValues('
-	for x in properties:
-		selObj = general.get_names_of_selected_objects()
-		temp = general.get_entity_param(selObj , x)
-		retVal = retVal + temp + ','
-	# send out or return value
-	return general.log(retVal + ');')
-
+	
 def materialfx():
 	'''Material fx related debug views.'''
 	mfxDebug = cvar('mfx_Debug', 0, 'materialfx', 'Show material collisions to verify impact type.')

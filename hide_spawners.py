@@ -4,9 +4,7 @@
 # Entrada Interactive
 # Miscreated 
 # ##################################################
-#
-import uuid
-import general
+
 # function to get the list of current spawners
 def getSpawners():
 	import os
@@ -35,13 +33,15 @@ def cleanObjects(obj):
 			objlist.append(model)
 			objlist.append(x)
 			retList.append(objlist)
-	#send it all back		
+	#send it all back
 	return retList
 
 #function to get selected objects in the layer
 def getSelectedObjects(selection):
+	sel = selection
 	objects = list()
-	for x in selection:
+	objects.extend(sel)
+	for x in sel:
 		# Go find it's children objects and add that to the return list
 		objects.extend(findChild(x))
 	return cleanObjects(objects)
@@ -86,33 +86,15 @@ def getObjects():
 def hideObject(obj):
 	for x in obj:
 		general.hide_object(x)
+		#print "Hiding: "+x
 
 # function to unhide an object
 def unhideObject(obj):
 	for x in obj:
 		general.unhide_object(x)
+			
 
 
-# function to go through a list of objects and give them unique name			
-def makeUnique(obj):
-	#init our list
-	retlist  = list()
-	for x in obj:
-		unid = str(uuid.uuid4())[:10]
-		count = 0
-		while count < 10:
-			count += 1
-			try:
-				print "trying " + str(count) + 'times to rename '+ x
-				general.rename_object(x,unid)
-			except Exception, e:
-				print e
-				if e == 'Could not find object' or count > 500:
-					break
-					
-				
-		retlist.append(unid)
-	return retlist
 
 # import our regex module
 import re
@@ -121,7 +103,7 @@ import re
 spawners = getSpawners()
 # get our objects
 objects = getObjects()
-
+#print objects
 # create our list to store the hide items in
 hidelist = list()
 #generate our hide lists by iterating through our objects and spawners
@@ -134,8 +116,4 @@ for spawner in spawners:
 		if re.search(regex, obj[0]):
 			hidelist.append(obj[1])
 # hide the objects
-
-# make our hidelist all have unique names
-hider = makeUnique(hidelist)
-hideObject(hider)
-#general.clear_selection()
+hideObject(hidelist)

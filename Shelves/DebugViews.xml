@@ -14,9 +14,6 @@
  <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="MATERIALFX - Toggle through all available Material debug views">
   <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','materialfx')" bVariableToggle="0"/>
  </macro>
- <macro title="" shortcut="" icon="icons\setrainpattern.png" tooltip="Set rain Values">
-  <command type="1" text="general.run_file('setrainvalues.py')" bVariableToggle="0"/>
- </macro>
  <!-- to be reinstated using ATL
  <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="SOUNDFX - Toggle through all available Sound debug views">
   <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','soundfx')" bVariableToggle="0"/>

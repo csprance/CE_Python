@@ -1,7 +1,20 @@
-test = ['Prefab32', 'LightBox_02', 'steps_mobilehome1', 'mobilehome_interior_01', 'blinds_long_01', 'blinds_long_04', 'window_03', 'window_frame_01', 'window_frame_02', 'blinds_long_02', 'window_08', 'mobilehome_doorway_01', 'window_frame_03', 'window_05', 'window_02', 'window_frame_04', 'window_07', 'window_01', 'window_04', 'window_06', 'mobilehome_01', 'Door_04', 'MobielHomes.mobilehomeA_furniture3', 'Shelf-closet-mobile', 'Designer82', 'Designer88', 'Designer89', 'Designer90', 'Designer91', 'Designer92', 'Designer93', 'Designer94', 'Trash_GarbagePile43', 'book_a25', 'Designer125', 'fb838b2d-4', 'Designer127', 'plate198', 'mattress17', 'Designer126', 'clothes69', 'Trash_CardBoardScraps97', 'domeLight2', 'book_b51', 'ef462b47-b', 'Designer126', 'Designer120', 'Designer124', 'standardBed15', '7804557c-b', 'elecStove7', 'Designer127', '1e854c80-9', 'Designer125', 'shelf_30', 'TrashBag41', 'Designer125', 'kitchentab6', 'Designer126', 'Designer126', 'abandoned_toilet_box_a8', 'plate164', 'plate162', 'Designer127', 'Designer52', 'TrashBag44', 'Designer120', '46_sink_a32', 'OfficeChair_Matt15', 'microwave14', 'mattress18', 'book_b53', 'nightstand15', 'Designer120', 'metal_landscape_basic_pic11', 'Designer125', 'curtain_b4', 'Designer126', '12_upper_c78', 'cloth19', 'Designer125', 'book_b55', 'b5c8a681-5', '12_upper_c70', 'Designer120', 'Trash_paperNews301', 'Designer69', 'Designer56', 'Designer55', 'Designer125', 'Designer124', 'book_a24', 'ecf2c9fa-7', 'domeLight3', 'Designer72', 'clothes86', 'BinBags253', 'Designer124', 'plate166', '12_upper_c77', 'Designer124', 'Designer127', 'clothes70', 'clothes84', 'Designer126', 'Designer59', 'clothes87', 'clothes73', 'cd80e178-2', 'Designer124', 'Designer127', 'metal_landscape_fancy15', 'Designer124', 'book_b54', 'Designer76', '2d8886c7-6', 'chair_91', 'plate161', 'book_b52', 'f361e023-3', 'civil_box_c6', 'Designer120', 'book_a20', 'livingroom_lamp_b_off4', 'cardboard_box60cm_c28', 'Designer125', 'brokentv13', 'Designer125', 'Designer127', 'Designer124', 'clothes74', 'c45aff32-5', 'Designer71', 'smallcouch1', 'Designer130', 'Designer120', 'metal_landscape_fancy16', 'Designer120', 'Decal998', 'book_a32', 'Designer125', 'brokentv10', 'Designer125', 'Designer126', 'plate196', 'gardengnome6', 'ceramic_vase24', 'Decal995', '05807816-5', 'Designer127', 'TrashBag42', 'Designer125', 'Designer81', 'Designer127', 'Designer79', 'Designer127', 'cup46', 'Couch17', 'cloth20', 'Designer127', 'metal_landscape_fancy19', 'brokentv12', 'table_frame6', 'Designer124', 'Designer126', 'cardboard_box100x60cm60', 'Designer125', 'lakewood_dresser_d4', 'Trash_GarbagePile47', 'Designer127', 'rug_k2', 'Designer74', 'Designer120', 'bookshelf_a6', 'Designer124', 'homeOffficeDesk7', 'e8789740-8', 'Designer126', 'BinBags255', 'Designer80', 'Designer127', 'Designer120', 'Designer127', 'brokentv11', 'abandoned_toilet_a44', 'Designer58', 'domeLight5', 'Designer120', 'Designer124', 'Designer120', 'Designer120', 'book_a23', 'gravecross_full5', 'TrashBag40', 'satellite_h8', 'Designer61', 'Decal996', 'desklamp_13', 'Designer77', '46_lowersink_c24', 'benches_b7', '3d33759e-2', 'book_a22', 'Designer120', 'TrashBag43', 'oilBottle16', 'Decal997', 'sink15', 'plate197', 'Designer78', 'Designer124', 'domeLight6', 'Designer126', 'clothes88', 'clothes71', 'Designer125', 'kettle40', 'Designer126', 'Designer126', 'Designer126', 'standardBed14', 'chair_95', 'faucet15', 'bathroomMirror19', 'faucet14', 'domeLight4', 'Designer124', 'Trash_paperNews303', 'homeOffficeDesk10', 'glass_vase21', 'Designer124', '12_upper_c71', 'f7ba4e8c-a', 'fae2bc91-a', '401508c8-7', 'd1cd9d10-8', 'edda02d7-0', '99d94216-8', '701697ee-0', 'fdf88c83-6', '4d280eda-f', 'cacadc12-8', 'Prefab3', 'fridge_body1', 'Door22', 'Door21']
+import general
 
-for x in test:
-	count = test.count(x)
-	name = x
-	if count > 1:
-		print "Name: "+ name + " How many times: "+ str(count)
+# get the list of all of our objects
+class SimBrush(object):
+	"""
+	This class holds all the relevant info for the brush and it's temporary physics 
+	object created with it
+	"""
+	def __init__(self, pos,rot,scale, model, physobj):
+		super(SimBrush, self).__init__()
+		self.pos = pos
+		self.rot = rot
+		self.scale = scale
+		self.model = model
+		self.physobj = physobj
+
+
+objname = general.get_names_of_selected_objects()
+for x in objname:
+	print x

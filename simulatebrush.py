@@ -37,9 +37,9 @@ if len(sys.argv) > 1:
 	if sys.argv[1] == 'weight':
 		simweight = general.edit_box('How much does this object weight?')
 	else:
-		simweight = 350
+		simweight = 45
 else:
-	simweight = 350
+	simweight = 45
 #set the weight
 general.set_entity_property(physobj, r'Mass', simweight)
 

@@ -1,22 +1,40 @@
 <toolboxmacros>
- <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="GBUFFERS - Toggle through all available GBuffer debug views">
-  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','gbuffers')" bVariableToggle="0"/>
- </macro>
- <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="PROFILING - Toggle through all available Profile debug views">
-  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','profiling')" bVariableToggle="0"/>
- </macro>
- <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="AI - Toggle through all available AI debug views">
-  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','ai')" bVariableToggle="0"/>
- </macro>
- <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="ART - Toggle through all available Art debug views">
-  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','art')" bVariableToggle="0"/>
- </macro>
- <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="MATERIALFX - Toggle through all available Material debug views">
-  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','materialfx')" bVariableToggle="0"/>
- </macro>
- <!-- to be reinstated using ATL
- <macro title="" shortcut="" icon="icons\placeholder.png" tooltip="SOUNDFX - Toggle through all available Sound debug views">
-  <command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','soundfx')" bVariableToggle="0"/>
- </macro>
- -->
+  <macro icon="" shortcut="" title="GBUFF" tooltip="GBUFFERS - Toggle through all available GBuffer debug views">
+    <command bVariableToggle="0" text="general.run_file_parameters(r'debugviews\debug_views.py','gbuffers')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="PROF" tooltip="PROFILING - Toggle through all available Profile debug views">
+    <command bVariableToggle="0" text="general.run_file_parameters(r'debugviews\debug_views.py','profiling')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="AI" tooltip="AI - Toggle through all available AI debug views">
+    <command bVariableToggle="0" text="general.run_file_parameters(r'debugviews\debug_views.py','ai')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="ART" tooltip="ART - Toggle through all available Art debug views">
+    <command bVariableToggle="0" text="general.run_file_parameters(r'debugviews\debug_views.py','art')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="MFX" tooltip="MATERIALFX - Toggle through all available Material debug views">
+    <command bVariableToggle="0" text="general.run_file_parameters(r'debugviews\debug_views.py','materialfx')" type="1"/>
+  </macro>
+  <!--  <macro title="SFX" shortcut="" icon="" tooltip="SOUNDFX - Toggle through all available Sound debug views"><command type="1" text="general.run_file_parameters(r'debugviews\debug_views.py','soundfx')" bVariableToggle="0"/></macro>-->
+  <macro icon="" shortcut="" title="Open In Explorer" tooltip="Open Selected Geometry in Explorer">
+    <command bVariableToggle="0" text="general.run_file(r'open_in_explorer.py')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="Take Screenshot" tooltip="Open Selected Geometry in Explorer">
+    <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+    <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+    <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+    <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+    <command bVariableToggle="0" text="general.run_file(r'take_screenshot.py')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="Unlit" tooltip="Open Selected Geometry in Explorer">
+    <command bVariableToggle="0" text="general.run_file(r'unlit.py')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="LODS" tooltip="Open Selected Geometry in Explorer">
+    <command bVariableToggle="0" text="general.run_file(r'toggle_lods.py')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="DrawCalls" tooltip="Open Selected Geometry in Explorer">
+    <command bVariableToggle="0" text="general.run_file(r'toggle_dp.py')" type="1"/>
+  </macro>
+  <macro icon="" shortcut="" title="Proxies" tooltip="Open Selected Geometry in Explorer">
+    <command bVariableToggle="0" text="general.run_file(r'toggle_proxy.py')" type="1"/>
+  </macro>
 </toolboxmacros>

@@ -6,13 +6,24 @@ def parseXML(layerfile):
     tree = ET.parse(bake_settings).getroot()
     return tree
 
+def get_atrribs(f, attribute):
+	tree = parseXML(f)
+	x = tree.find('Layer').find('LayerObjects').findall('Object')
+	retval = list()
+	for y in x:
+		try:
+			retval.append( (attribute, y.attrib[attribute]))
+		except:
+			retval.append((attribute,None))
+	return retval
+
 def main():
-	pass
+	x = get_atrribs("D:\perforce\GameSDK\Levels\islands\layers\marco_layers\center_hills.lyr", 'EntityType')
+	x = get_atrribs("D:\perforce\GameSDK\Levels\islands\layers\marco_layers\center_hills.lyr", 'Prefab')
+	print(x)
 
 if __name__ == '__main__':
 	main()
-	tree = parseXML("D:\perforce\GameSDK\Levels\islands\layers\cave_mushroom_spaweners.lyr")
-	x = tree.find('Layer').find('LayerObjects').findall('Object')
-	print (x[0].attrib['Prefab'])
+
 
 

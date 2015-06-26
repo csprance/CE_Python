@@ -1,0 +1,1006 @@
+Item Name: SheetMetal
+Time to Construct: 5
+Name of Recipe: SheetMetal
+Mats Needed: ScrapMetal
+Mats Needed: ScrapMetal
+---------------------
+Item Name: Lumber
+Time to Construct: 2
+Name of Recipe: Lumber
+Mats Needed: WoodPile
+Mats Needed: WoodPile
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsBandana
+Mats Needed: Bandana
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsBandanaHat
+Mats Needed: BandanaHat
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsBlueJeans
+Mats Needed: BlueJeans
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsBlueJeans2
+Mats Needed: BlueJeans2
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsBlueJeans2Brown
+Mats Needed: BlueJeans2Brown
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsBlueJeans2Green
+Mats Needed: BlueJeans2Green
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsCargoPantsBlack
+Mats Needed: CargoPantsBlack
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsCargoPantsGreen
+Mats Needed: CargoPantsGreen
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsCargoPantsTan
+Mats Needed: CargoPantsTan
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsTrackPantsBlack
+Mats Needed: TrackPantsBlack
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsTrackPantsBlue
+Mats Needed: TrackPantsBlue
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsTrackPantsGreen
+Mats Needed: TrackPantsGreen
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsTrackPantsOrange
+Mats Needed: TrackPantsOrange
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsTrackPantsPink
+Mats Needed: TrackPantsPink
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsHoodie
+Mats Needed: Hoodie
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordBlue
+Mats Needed: OxfordBlue
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordCammoA
+Mats Needed: OxfordCammoA
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordCammoB
+Mats Needed: OxfordCammoB
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordCammoC
+Mats Needed: OxfordCammoC
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordGreen
+Mats Needed: OxfordGreen
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordLongShirt
+Mats Needed: OxfordLongShirt
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordOrange
+Mats Needed: OxfordOrange
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordPink
+Mats Needed: OxfordPink
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordRed
+Mats Needed: OxfordRed
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsOxfordYellow
+Mats Needed: OxfordYellow
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsPuffyJacketBlack
+Mats Needed: PuffyJacketBlack
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsPuffyJacketBlue
+Mats Needed: PuffyJacketBlue
+---------------------
+Item Name: Rags
+Time to Construct: 1
+Name of Recipe: RagsPuffyJacketBrown
+Mats Needed: PuffyJacketBrown
+---------------------
+Item Name: BaseballBatNails
+Time to Construct: 3
+Name of Recipe: BaseballBatNails
+Mats Needed: BaseballBat
+Mats Needed: Nails
+---------------------
+Item Name: NailKnuckles
+Time to Construct: 3
+Name of Recipe: NailKnuckles
+Mats Needed: ScrapMetal
+Mats Needed: WoodPile
+Mats Needed: Rags
+Mats Needed: Nails
+---------------------
+Item Name: WoodPaddle
+Time to Construct: 3
+Name of Recipe: WoodPaddle
+Mats Needed: Lumber
+Mats Needed: DuctTape
+---------------------
+Item Name: NailsPaddle
+Time to Construct: 3
+Name of Recipe: NailsPaddle
+Mats Needed: Lumber
+Mats Needed: DuctTape
+Mats Needed: Nails
+---------------------
+Item Name: NailsPaddle
+Time to Construct: 3
+Name of Recipe: WoodPaddleToNailsPaddleUpgrade
+Mats Needed: WoodPaddle
+Mats Needed: Nails
+---------------------
+Item Name: FahQPaddle
+Time to Construct: 3
+Name of Recipe: FahQPaddle
+Mats Needed: ScrapMetal
+Mats Needed: Lumber
+Mats Needed: DuctTape
+Mats Needed: Nails
+---------------------
+Item Name: FahQPaddle
+Time to Construct: 3
+Name of Recipe: NailsPaddleToFahQPaddleUpgrade
+Mats Needed: ScrapMetal
+Mats Needed: NailsPaddle
+---------------------
+Item Name: FahQPaddle
+Time to Construct: 3
+Name of Recipe: WoodPaddleToFahQPaddleUpgrade
+Mats Needed: ScrapMetal
+Mats Needed: WoodPaddle
+Mats Needed: Nails
+---------------------
+Item Name: AdvancedBandage
+Time to Construct: 2
+Name of Recipe: AdvancedBandage
+Mats Needed: Bandage
+Mats Needed: RubbingAlcohol
+---------------------
+Item Name: AdvancedBandage
+Time to Construct: 2
+Name of Recipe: AdvancedBandageRag
+Mats Needed: Rags
+Mats Needed: RubbingAlcohol
+---------------------
+Item Name: AntibioticBandage
+Time to Construct: 2
+Name of Recipe: AntibioticBandage
+Mats Needed: WaterBottle
+Mats Needed: MushroomHeal
+Mats Needed: Bandage
+---------------------
+Item Name: AntibioticBandage
+Time to Construct: 2
+Name of Recipe: AntibioticBandage
+Mats Needed: MushroomHeal
+Mats Needed: WaterBottle
+Mats Needed: Rags
+---------------------
+Item Name: Torch
+Time to Construct: 2
+Name of Recipe: Torch
+Mats Needed: Oil
+Mats Needed: Rags
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_furniture_panel
+Time to Construct: 2
+Name of Recipe: wood_furniture_panel
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_ramp_panel
+Time to Construct: 2
+Name of Recipe: wood_ramp_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_floor_panel
+Time to Construct: 3
+Name of Recipe: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_panel
+Time to Construct: 4
+Name of Recipe: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_curve_panel
+Time to Construct: 4
+Name of Recipe: wood_wall_curve_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_window_frame
+Time to Construct: 5
+Name of Recipe: wood_window_frame
+Mats Needed: WoodPile
+Mats Needed: Lumber
+---------------------
+Item Name: wood_door_frame
+Time to Construct: 5
+Name of Recipe: wood_door_frame
+Mats Needed: WoodPile
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: PlotSignPacked
+Time to Construct: 10
+Name of Recipe: PlotSign
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Nails
+---------------------
+Item Name: wood_door_1m_2m
+Time to Construct: 10
+Name of Recipe: wood_door_1m_2m
+Mats Needed: wood_wall_panel
+Mats Needed: ScrapMetal
+---------------------
+Item Name: wood_door_lockable_1m_2m
+Time to Construct: 10
+Name of Recipe: wood_door_lockable_1m_2m
+Mats Needed: wood_wall_panel
+Mats Needed: ScrapMetal
+Mats Needed: ScrapMetal
+---------------------
+Item Name: wood_ramp_0m_1_3m_1m
+Time to Construct: 10
+Name of Recipe: wood_ramp_0m_1_3m_1m
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_0m_1_3m_3m
+Time to Construct: 15
+Name of Recipe: wood_ramp_0m_1_3m_3m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_0m_2m_1m
+Time to Construct: 15
+Name of Recipe: wood_ramp_0m_2m_1m
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_0m_2m_3m
+Time to Construct: 20
+Name of Recipe: wood_ramp_0m_2m_3m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_1_3m_2m_1m
+Time to Construct: 25
+Name of Recipe: wood_ramp_1_3m_2m_1m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_1_3m_2m_3m
+Time to Construct: 30
+Name of Recipe: wood_ramp_1_3m_2m_3m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_1_3m_3m_1m
+Time to Construct: 20
+Name of Recipe: wood_ramp_1_3m_3m_1m
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_1_3m_3m_3m
+Time to Construct: 25
+Name of Recipe: wood_ramp_1_3m_3m_3m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_2m_3m_1m
+Time to Construct: 30
+Name of Recipe: wood_ramp_2m_3m_1m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_ramp_2m_3m_3m
+Time to Construct: 35
+Name of Recipe: wood_ramp_2m_3m_3m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_1_3m_1m_1m
+Time to Construct: 10
+Name of Recipe: wood_walkway_1_3m_1m_1m
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_1_3m_3m_1m
+Time to Construct: 15
+Name of Recipe: wood_walkway_1_3m_3m_1m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_1_3m_4m_4m
+Time to Construct: 20
+Name of Recipe: wood_walkway_1_3m_4m_4m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_2m_1m_1m
+Time to Construct: 15
+Name of Recipe: wood_walkway_2m_1m_1m
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_2m_3m_1m
+Time to Construct: 20
+Name of Recipe: wood_walkway_2m_3m_1m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_2m_4m_4m
+Time to Construct: 25
+Name of Recipe: wood_walkway_2m_4m_4m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_3m_1m_1m
+Time to Construct: 20
+Name of Recipe: wood_walkway_3m_1m_1m
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_3m_3m_1m
+Time to Construct: 25
+Name of Recipe: wood_walkway_3m_3m_1m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_3m_4m_4m
+Time to Construct: 30
+Name of Recipe: wood_walkway_3m_4m_4m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_curve_1_3m_4m_4m
+Time to Construct: 30
+Name of Recipe: wood_walkway_curve_1_3m_4m_4m
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_curve_2m_4m_4m
+Time to Construct: 30
+Name of Recipe: wood_walkway_curve_2m_4m_4m
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_walkway_curve_3m_4m_4m
+Time to Construct: 30
+Name of Recipe: wood_walkway_curve_3m_4m_4m
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_1_3m_1m
+Time to Construct: 10
+Name of Recipe: wood_wall_1_3m_1m
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_1_3m_2m
+Time to Construct: 15
+Name of Recipe: wood_wall_1_3m_2m
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_1_3m_4m
+Time to Construct: 20
+Name of Recipe: wood_wall_1_3m_4m
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_2m_1m
+Time to Construct: 15
+Name of Recipe: wood_wall_2m_1m
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_2m_2m
+Time to Construct: 20
+Name of Recipe: wood_wall_2m_2m
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_2m_4m
+Time to Construct: 25
+Name of Recipe: wood_wall_2m_4m
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_3m_1m
+Time to Construct: 20
+Name of Recipe: wood_wall_3m_1m
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_3m_2m
+Time to Construct: 25
+Name of Recipe: wood_wall_3m_2m
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_3m_4m
+Time to Construct: 30
+Name of Recipe: wood_wall_3m_4m
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_curve_1_3m_4m
+Time to Construct: 20
+Name of Recipe: wood_wall_curve_1_3m_4m
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_wall_curve_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_curve_2m_4m
+Time to Construct: 25
+Name of Recipe: wood_wall_curve_2m_4m
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_wall_curve_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_curve_3m_4m
+Time to Construct: 30
+Name of Recipe: wood_wall_curve_3m_4m
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_wall_curve_panel
+Mats Needed: wood_wall_curve_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_wall_door_3m_4m
+Time to Construct: 15
+Name of Recipe: wood_wall_door_3m_4m
+Mats Needed: wood_wall_3m_4m
+Mats Needed: wood_door_frame
+---------------------
+Item Name: wood_wall_window_3m_2m
+Time to Construct: 12
+Name of Recipe: wood_wall_window_3m_2m
+Mats Needed: wood_wall_3m_2m
+Mats Needed: wood_door_frame
+---------------------
+Item Name: wood_wall_window_3m_4m
+Time to Construct: 15
+Name of Recipe: wood_wall_window_3m_4m
+Mats Needed: wood_wall_3m_4m
+Mats Needed: wood_window_frame
+---------------------
+Item Name: wood_wall_door_curve_3m_4m
+Time to Construct: 15
+Name of Recipe: wood_wall_door_curve_3m_4m
+Mats Needed: wood_wall_curve_3m_4m
+Mats Needed: wood_door_frame
+---------------------
+Item Name: wood_wall_window_curve_3m_4m
+Time to Construct: 15
+Name of Recipe: wood_wall_window_curve_3m_4m
+Mats Needed: wood_wall_curve_3m_4m
+Mats Needed: wood_window_frame
+---------------------
+Item Name: wood_walkstairs_3m_4m_4m
+Time to Construct: 15
+Name of Recipe: wood_walkstairs_3m_4m_4m
+Mats Needed: wood_walkway_3m_4m_4m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+---------------------
+Item Name: wood_walkroof_3m_4m_4m
+Time to Construct: 15
+Name of Recipe: wood_walkroof_3m_4m_4m
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_ramp_panel
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+---------------------
+Item Name: wood_crate_small
+Time to Construct: 10
+Name of Recipe: wood_crate_small
+Mats Needed: wood_furniture_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_crate_large
+Time to Construct: 10
+Name of Recipe: wood_crate_large
+Mats Needed: wood_furniture_panel
+Mats Needed: wood_furniture_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: tiki_torch
+Time to Construct: 10
+Name of Recipe: tiki_torch
+Mats Needed: Lumber
+Mats Needed: ScrapMetal
+---------------------
+Item Name: wood_campfire
+Time to Construct: 7.5
+Name of Recipe: wood_campfire
+Mats Needed: Rocks
+Mats Needed: Rocks
+Mats Needed: WoodPile
+Mats Needed: Lumber
+---------------------
+Item Name: wood_punji_1m_1m
+Time to Construct: 10
+Name of Recipe: wood_punji_1m_1m
+Mats Needed: wood_floor_panel
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_punji_poisoned_1m_1m
+Time to Construct: 10
+Name of Recipe: wood_punji_1m_1m_apple
+Mats Needed: wood_punji_1m_1m
+Mats Needed: AppleRotten
+---------------------
+Item Name: wood_palisade_4m
+Time to Construct: 60
+Name of Recipe: wood_palisade_4m
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: WoodPile
+Mats Needed: WoodPile
+Mats Needed: WoodPile
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_chair
+Time to Construct: 10
+Name of Recipe: wood_chair
+Mats Needed: wood_furniture_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_table
+Time to Construct: 15
+Name of Recipe: wood_table
+Mats Needed: wood_furniture_panel
+Mats Needed: wood_furniture_panel
+Mats Needed: Lumber
+---------------------
+Item Name: wood_bed
+Time to Construct: 10
+Name of Recipe: wood_bed
+Mats Needed: wood_furniture_panel
+Mats Needed: wood_furniture_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_watchtower
+Time to Construct: 60
+Name of Recipe: wood_watchtower
+Mats Needed: wood_floor_panel
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: wood_wall_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_gallows
+Time to Construct: 60
+Name of Recipe: wood_gallows
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+---------------------
+Item Name: wood_bridge_3m_6m
+Time to Construct: 60
+Name of Recipe: wood_bridge_3m_6m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_bridge_3m_12m
+Time to Construct: 60
+Name of Recipe: wood_bridge_3m_12m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_bridge_6m_6m
+Time to Construct: 60
+Name of Recipe: wood_bridge_6m_6m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_bridge_6m_12m
+Time to Construct: 60
+Name of Recipe: wood_bridge_6m_12m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_bridge_9m_6m
+Time to Construct: 60
+Name of Recipe: wood_bridge_9m_6m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: WoodPile
+---------------------
+Item Name: wood_bridge_9m_12m
+Time to Construct: 60
+Name of Recipe: wood_bridge_9m_12m
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: wood_floor_panel
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: Lumber
+Mats Needed: WoodPile
+---------------------
+Item Name: tire_1m
+Time to Construct: 10
+Name of Recipe: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_1_3m
+Time to Construct: 20
+Name of Recipe: tire_1_3m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_1_3m
+Time to Construct: 15
+Name of Recipe: tire_1_3m_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_2m
+Time to Construct: 25
+Name of Recipe: tire_2m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_2m
+Time to Construct: 20
+Name of Recipe: tire_2m_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_2m
+Time to Construct: 15
+Name of Recipe: tire_2m_2x1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+---------------------
+Item Name: tire_2m
+Time to Construct: 10
+Name of Recipe: tire_2m
+Mats Needed: tire_1_3m
+Mats Needed: Wheel
+---------------------
+Item Name: tire_3m
+Time to Construct: 30
+Name of Recipe: tire_3m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_3m
+Time to Construct: 25
+Name of Recipe: tire_3m_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_3m
+Time to Construct: 20
+Name of Recipe: tire_3m_2x1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_3m
+Time to Construct: 15
+Name of Recipe: tire_3m_3x1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+---------------------
+Item Name: tire_3m
+Time to Construct: 15
+Name of Recipe: tire_3m_1_3m
+Mats Needed: tire_1_3m
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_3m
+Time to Construct: 10
+Name of Recipe: tire_3m_1_3m_1m
+Mats Needed: tire_1_3m
+Mats Needed: tire_1m
+---------------------
+Item Name: tire_3m
+Time to Construct: 10
+Name of Recipe: tire_3m_2m
+Mats Needed: tire_2m
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 40
+Name of Recipe: tire_4m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 35
+Name of Recipe: tire_4m_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 30
+Name of Recipe: tire_4m_2x1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 25
+Name of Recipe: tire_4m_3x1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 20
+Name of Recipe: tire_4m_4x1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+---------------------
+Item Name: tire_4m
+Time to Construct: 25
+Name of Recipe: tire_4m_1_3m
+Mats Needed: tire_1_3m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 10
+Name of Recipe: tire_4m_2x1_3m
+Mats Needed: tire_1_3m
+Mats Needed: tire_1_3m
+---------------------
+Item Name: tire_4m
+Time to Construct: 20
+Name of Recipe: tire_4m_1_3m_1m
+Mats Needed: tire_1_3m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 15
+Name of Recipe: tire_4m_1_3m_2x1m
+Mats Needed: tire_1_3m
+Mats Needed: tire_1m
+Mats Needed: tire_1m
+---------------------
+Item Name: tire_4m
+Time to Construct: 20
+Name of Recipe: tire_4m_2m
+Mats Needed: tire_2m
+Mats Needed: Wheel
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 15
+Name of Recipe: tire_4m_2m1m
+Mats Needed: tire_2m
+Mats Needed: tire_1m
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 15
+Name of Recipe: tire_4m_3m
+Mats Needed: tire_3m
+Mats Needed: Wheel
+Mats Needed: Wheel
+---------------------
+Item Name: tire_4m
+Time to Construct: 10
+Name of Recipe: tire_4m_3m1m
+Mats Needed: tire_3m
+Mats Needed: Wheel
+---------------------

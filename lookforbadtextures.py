@@ -52,7 +52,8 @@ def retraw(img):
             print(img, strip_control_characters(iptc))
             # extract the data from the tag and return it and the i mage path
             # in a tuple
-    except:
+    except Exception, e:
+        print(e)
         # just fugettahboutit
         return
 
@@ -64,7 +65,7 @@ def main():
     if len(sys.argv) > 1:
     	directory = sys.argv[1]
     else:
-    	directory = "d:/perforce/gamesdk/textures"
+    	directory = "d:/perforce/gamesdk/objects/weapons"
     	pass
     for root, dirs, files in os.walk(directory):
         for file in files:

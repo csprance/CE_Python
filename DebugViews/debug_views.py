@@ -14,7 +14,7 @@ if 'CVARS' not in globals():
 			'ai' : [],
 			'art' : [],
 			'materialfx' : [],
-			'soundfx' : [],
+			# 'soundfx' : [],
 			}
 
 ###############################################################################
@@ -103,8 +103,8 @@ def init_cvars(type):
 	if int(general.get_cvar('ai_DebugDraw')) != -1 and type != 'ai': reset = True
 	if int(general.get_cvar('e_debugdraw')) and type != 'art': reset = True
 	if int(general.get_cvar('mfx_debug')) and type != 'materialfx': reset = True
-	# to be reinstated using ATL
-	# if int(general.get_cvar('s_SoundInfo')) and type != 'soundfx': reset = True
+	#if int(general.get_cvar('s_DrawAudioDebug')) and type != 'soundfx': reset = True
+	if int(general.get_cvar('p_draw_helpers')) and type != 'proxies': reset = True
 	
 	if int(general.get_cvar('r_wireframe')):
 		try:
@@ -261,17 +261,17 @@ def materialfx():
 	
 	mfxDebug.next_value()
 	
-# to be reinstated using ATL
+#to be reinstated using ATL
 # def soundfx():
-	# '''Sound fx related debug views.'''
-	# sfxDebug = cvar('s_SoundInfo', 0, 'soundfx', 'Show various sound fx debug views.')
-	# sfxDebug.add_value(1, 'SoundFX - Sounds Playing')
-	# sfxDebug.add_value(8, 'SoundFX - Music Information')
-	# sfxDebug.add_value(12, 'SoundFX - Memory Usage By Project and Group')
-	# 
-	# set_auxiliary_cvar('s_DrawSounds', 0, 5)
-	# 	
-	# sfxDebug.next_value()
+# 	'''Sound fx related debug views.'''
+# 	sfxDebug = cvar('s_DrawAudioDebug', 0, 'soundfx', 'Show various sound fx debug views.')
+# 	sfxDebug.add_value('a', 'SoundFX - Draw Spheres around active audio objects')
+# 	sfxDebug.add_value('b', 'SoundFX - Show text labels for active audio objects')
+# 	sfxDebug.add_value('g', 'SoundFX - Draw occlusion rays')
+	
+# 	set_auxiliary_cvar('s_DrawAudioDebug', 0, 'a')
+		
+# 	sfxDebug.next_value()
 
 ###############################################################################		
 def main():

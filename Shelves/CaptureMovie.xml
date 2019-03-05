@@ -1,0 +1,11 @@
+<toolboxmacros>
+    <macro icon="" shortcut="" title="Setup Movie" tooltip="Set up a recording sequence for rending out frames using capture_frames">
+        <command bVariableToggle="0" text="general.run_file(r'setup_movie.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Start Recording" tooltip="Start Capturing Frames for a movie">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'capture_movie.py', 'start')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Stop Recording" tooltip="stop Capturing Frames for a movie">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'capture_movie.py', 'stop')" type="1"/>
+    </macro>
+</toolboxmacros>

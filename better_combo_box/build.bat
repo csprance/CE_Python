@@ -1,0 +1,1 @@
+pyinstaller -w -F better_combo_box.py

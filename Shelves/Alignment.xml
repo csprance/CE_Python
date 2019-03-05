@@ -1,0 +1,20 @@
+<toolboxmacros prettyName="Alignment Tools" >
+    <macro icon="icons\ei\align_x.png" shortcut="" title="Align X" tooltip="Align items to the max x value.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'align_items.py', 'x')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\align_y.png" shortcut="" title="Align Y" tooltip="Align items to the max y value.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'align_items.py', 'y')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\align_z.png" shortcut="" title="Align Z" tooltip="Align items to the max z value.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'align_items.py', 'z')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\align_x_neg.png" shortcut="" title="Align -X" tooltip="Align items to the min x value.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'align_items.py', '-x')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\align_y_neg.png" shortcut="" title="Align -Y" tooltip="Align items to the min y value.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'align_items.py', '-y')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\align_z_neg.png" shortcut="" title="Align -Z" tooltip="Align items to the min z value.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'align_items.py', '-z')" type="1"/>
+    </macro>
+</toolboxmacros>

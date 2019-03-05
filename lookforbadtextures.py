@@ -13,17 +13,26 @@ def strip_control_characters(input):
 
     if input:
 
-
         # unicode invalid characters
-        RE_XML_ILLEGAL = u'([\u0000-\u0008\u000b-\u000c\u000e-\u001f\ufffe-\uffff])' + \
-                         u'|' + \
-                         u'([%s-%s][^%s-%s])|([^%s-%s][%s-%s])|([%s-%s]$)|(^[%s-%s])' % \
-            (unichr(0xd800), unichr(0xdbff), unichr(0xdc00), unichr(0xdfff),
-             unichr(0xd800), unichr(0xdbff), unichr(
-                0xdc00), unichr(0xdfff),
-             unichr(0xd800), unichr(0xdbff), unichr(
-                0xdc00), unichr(0xdfff),
-             )
+        RE_XML_ILLEGAL = (
+            u"([\u0000-\u0008\u000b-\u000c\u000e-\u001f\ufffe-\uffff])"
+            + u"|"
+            + u"([%s-%s][^%s-%s])|([^%s-%s][%s-%s])|([%s-%s]$)|(^[%s-%s])"
+            % (
+                unichr(0xd800),
+                unichr(0xdbff),
+                unichr(0xdc00),
+                unichr(0xdfff),
+                unichr(0xd800),
+                unichr(0xdbff),
+                unichr(0xdc00),
+                unichr(0xdfff),
+                unichr(0xd800),
+                unichr(0xdbff),
+                unichr(0xdc00),
+                unichr(0xdfff),
+            )
+        )
         input = re.sub(RE_XML_ILLEGAL, "", input)
 
         # ascii control characters
@@ -32,6 +41,7 @@ def strip_control_characters(input):
         input = re.sub(r"(8BIM...)", "", input)
 
     return input
+
 
 # return raw values from a tag
 
@@ -45,17 +55,18 @@ def retraw(img):
         im = TiffImagePlugin.TiffImageFile(img)
         # set up our regex
         iptc = im.tag.tagdata[TiffImagePlugin.PHOTOSHOP_CHUNK]
-        regex = re.findall(r'\/ser=1', iptc)
+        regex = re.findall(r"\/ser=1", iptc)
         # if regex is true it will return back a value so check that and then
         # return
         if regex:
             print(img, strip_control_characters(iptc))
             # extract the data from the tag and return it and the i mage path
             # in a tuple
-    except Exception, e:
+    except Exception as e:
         print(e)
         # just fugettahboutit
         return
+
 
 # main
 
@@ -63,15 +74,16 @@ def retraw(img):
 def main():
     # recurse through all directors only finding files with .tif
     if len(sys.argv) > 1:
-    	directory = sys.argv[1]
+        directory = sys.argv[1]
     else:
-    	directory = "d:/perforce/gamesdk/objects/weapons"
-    	pass
+        directory = "d:/perforce/gamesdk/objects/weapons"
+        pass
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith(".tif"):
                 retraw(os.path.join(root, file))
 
+
 # run the shizzle
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -1,5 +1,5 @@
 #! python
-#SImulate Brush#
+# SImulate Brush#
 
 # 1. Select object
 # 2. Run Script
@@ -11,78 +11,51 @@
 # 	6. simulate rigidbody ex
 # 	7. after simulation is done copy original object to new xform of simulated rigid body
 # 	8. delete rigid body.
-import sys
+import better_cry
+from user_values import UserValues
 
-# 	1. Get selected object.
-#grab some properties for our selected object
-objname = general.get_names_of_selected_objects()
-objpos = general.get_position(objname[0])
-objrot = general.get_rotation(objname[0])
-objscale = general.get_scale(objname[0])
+if __name__ == "__main__":
+    PHY_OBJ_NAME = "brush_sim_temp"
+    level = better_cry.Level()
+    store = UserValues()
+    # check if we have a stored brush
+    stored_brush = store.get("simmed_brush")
 
-# 	2. Create rigid body ex and copy model to rigidbodyex
-#create the object at 0,0,0
-physobj = general.new_object('Entity', r'RigidBodyEx', r'brush_sim_temp', 0, 0, 0)
-# set the physobj to be the selected brush object
-general.set_entity_property(physobj, r'Model', lodtools.getselected())
+    if stored_brush is None:
+        # 	1. Get selected object.
+        brush = level.selected[0]
+        # store the users selection for setting the physics state later on
+        store.set("simmed_brush", brush.name)
+        # 	2. Create rigid body ex and copy model to rigidbodyex
+        phys_obj = level.new_object("Entity", r"RigidBodyEx", PHY_OBJ_NAME, 0, 0, 0)
+        # mark it with a special material so you know it's being simulated
+        phys_obj.material = "Materials/Special/green_screen.mtl"
+        # set the physobj to be the selected brush object
+        phys_obj.geometry_file = brush.geometry_file
+        # 	3. snap physobj to xform of selected object
+        phys_obj.position = (brush.position[0], brush.position[1], brush.position[2])
+        phys_obj.rotation = (brush.rotation[0], brush.rotation[1], brush.rotation[2])
+        phys_obj.scale = (brush.scale[0], brush.scale[1], brush.scale[2])
+        # 5 Hide user selection object
+        brush.hide()
+        # 	6. simulate physobj
+        phys_obj.simulate()
 
-# 	3. snap physobj to xform of selected object
-general.set_position(physobj,objpos[0],objpos[1],objpos[2])
-general.set_rotation(physobj,objrot[0],objrot[1],objrot[2])
-general.set_scale(physobj,objscale[0],objscale[1],objscale[2])
-
-# 	4. prompt user for weight
-# How much does this object weight?
-if len(sys.argv) > 1:
-	if sys.argv[1] == 'weight':
-		simweight = general.edit_box('How much does this object weight?')
-	else:
-		simweight = 45
-else:
-	simweight = 45
-#set the weight
-general.set_entity_property(physobj, r'Mass', simweight)
-
-
-
-#5 Hide object
-general.log('hiding ' + objname[0])
-
-def simobj():
-	general.hide_object(objname[0])
-	general.select_object(physobj)
-	physics.simulate_selection()
-	general.clear_selection()
-	general.select_object(objname[0])
-
-
-	
-# 	6. simulate physobj
-#select sim_brush
-simobj()
-
-
-
-
-
-
-
-# 	7. after simulation is done copy original object to new xform of simulated rigid body
-def setobj():
-	physics.get_state(physobj)
-	physpos = general.get_position(physobj)
-	physrot = general.get_rotation(physobj)
-	physscale = general.get_scale(physobj)
-	general.unhide_object(objname[0])
-	general.set_position(objname[0],physpos[0],physpos[1],physpos[2])
-	general.set_rotation(objname[0],physrot[0],physrot[1],physrot[2])
-	general.set_scale(objname[0],physscale[0],physscale[1],physscale[2])
-
-
-
-# 	8. delete rigid body.
-
-
-
-
-
+    if stored_brush is not None:
+        brush = level.get_object_by_name(str(stored_brush))
+        # unhide the original object
+        brush.unhide()
+        # get the state of the physics objects
+        phys_obj = level.get_object_by_name(PHY_OBJ_NAME)
+        phys_obj.get_physics_state()
+        # set the transforms of the original object to have the transforms of the simulated object
+        brush.position = phys_obj.position
+        brush.rotation = phys_obj.rotation
+        brush.scale = phys_obj.scale
+        # delete the physics object
+        level.clear_selection()
+        phys_obj.delete()
+        # reselect the users original selection
+        brush.select()
+        # delete the simmed brush key so we can simulate another model
+        store.delete("simmed_brush")

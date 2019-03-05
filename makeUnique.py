@@ -24,4 +24,5 @@ def getAllObjects():
 	return objects
 
 test = getAllObjects()
-makeUnique(test)
+
+print test

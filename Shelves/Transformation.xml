@@ -1,0 +1,35 @@
+<toolboxmacros>
+    <macro icon="" shortcut="" title="SimBrush" tooltip="Convert a brush toa  physics object and simulate it or convert a physics object to a brush">
+        <command bVariableToggle="0" text="general.run_file(r'simulatebrush.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Copy Xforms" tooltip="Copy the currently selected objects xforms.">
+        <command bVariableToggle="0" text="general.run_file(r'xform_copy.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Paste Xforms" tooltip="Copy the currently selected objects xforms.">
+        <command bVariableToggle="0" text="general.run_file(r'xform_paste.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Rotate Randomly" tooltip="Randomly rotate all selected items.">
+        <command bVariableToggle="0" text="general.run_file(r'rotate_randomly.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Unrotate" tooltip="Remove all rotations on an object.">
+        <command bVariableToggle="0" text="general.run_file(r'unrotate.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Space X" tooltip="Space Evenly on X.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'space_objects_evenly.py', '0')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Space Y" tooltip="Space Evenly on Y.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'space_objects_evenly.py', '1')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Space Z" tooltip="Space Evenly on Z.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'space_objects_evenly.py', '2')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Space X BB" tooltip="Space by bounding box on X.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'space_objects_bounding_box.py', '0')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Space Y BB" tooltip="Space by bounding box on Y.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'space_objects_bounding_box.py', '1')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Space Z BB" tooltip="Space by bounding box on Z.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'space_objects_bounding_box.py', '2')" type="1"/>
+    </macro>
+</toolboxmacros>

@@ -1,0 +1,11 @@
+<toolboxmacros prettyName="Distribution Tools" >
+    <macro icon="icons\ei\xy.png" shortcut="" title="Distribute XY" tooltip="Distribute items along the XY axis.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'distribute_objects.py', 'xy')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\xz.png" shortcut="" title="Distribute XZ" tooltip="Distribute items along the XZ axis.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'distribute_objects.py', 'xz')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\yz.png" shortcut="" title="Distribute YZ" tooltip="Distribute items along the YZ axis.">
+        <command bVariableToggle="0" text="general.run_file_parameters(r'distribute_objects.py', 'yz')" type="1"/>
+    </macro>
+</toolboxmacros>

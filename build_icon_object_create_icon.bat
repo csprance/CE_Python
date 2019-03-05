@@ -1,0 +1,1 @@
+pyinstaller -F icon_object_create_icon.py

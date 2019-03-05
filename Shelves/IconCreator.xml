@@ -1,0 +1,66 @@
+<toolboxmacros prettyName="Icon Creator" >
+    <!--Disabled for now because only really I would use this anyways-->
+    <!--<macro icon="icons\ei\load_db.png" shortcut="" title="Load Batch" tooltip="Load an icon setup from the db in batch mode.">-->
+        <!--<command bVariableToggle="0" text="general.run_file(r'icon_object_load_batch.py')" type="1"/>-->
+    <!--</macro>-->
+    <macro icon="icons\ei\load_xml.png" shortcut="" title="Load Icon" tooltip="Load an icon setup by XML File">
+        <command bVariableToggle="0" text="general.run_file(r'icon_object_load_xml.py')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\load_brush.png" shortcut="" title="Load Icon" tooltip="Load an icon setup by CGF file">
+        <command bVariableToggle="0" text="general.run_file(r'icon_object_load.py')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\load_name.png" shortcut="" title="Load By Name" tooltip="Load an icon setup by item name">
+        <command bVariableToggle="0" text="general.run_file(r'icon_object_load_name.py')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\create_variations.png" shortcut="" title="Create Variants" tooltip="Create variants based on the current item in the scenes transforms">
+        <command bVariableToggle="0" text="general.run_file(r'icon_object_create_variants.py')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\save.png" shortcut="" title="Save Icon" tooltip="Save an icon Setup by item name">
+        <command bVariableToggle="0" text="general.run_file(r'icon_object_save.py')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\add_embellishment.png" shortcut="" title="Add Embellishment" tooltip="Add an embellishment image to an icon.">
+        <command bVariableToggle="0" text="general.run_file(r'icon_object_add_embellishment.py')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\capture.png" shortcut="" title="Capture Icon" tooltip="Capture and create a standard icon ">
+        <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+        <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+        <command bVariableToggle="0" text="general.run_file_parameters(r'icon_object_capture.py', '--standard')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\capture_epic.png" shortcut="" title="Capture Icon" tooltip="Capture and create an epic icon">
+        <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+        <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+        <command bVariableToggle="0" text="general.run_file_parameters(r'icon_object_capture.py', '--epic')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\capture_special.png" shortcut="" title="Capture Icon" tooltip="Capture and create a special icon">
+        <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+        <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+        <command bVariableToggle="0" text="general.run_file_parameters(r'icon_object_capture.py', '--special')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\capture_pink.png" shortcut="" title="Capture Standard Icon (Pink Chroma)" tooltip="Capture and create a standard icon with a pink background.">
+        <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+        <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+        <command bVariableToggle="0" text="general.run_file_parameters(r'icon_object_capture.py', '--standard --pink')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\capture_epic_pink.png" shortcut="" title="Capture Epic Icon (Pink Chroma)" tooltip="Capture and create an epic icon with a pink background.">
+        <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+        <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+        <command bVariableToggle="0" text="general.run_file_parameters(r'icon_object_capture.py', '--epic --pink')" type="1"/>
+    </macro>
+    <macro icon="icons\ei\capture_special_pink.png" shortcut="" title="Capture Special Icon (Pink Chroma)" tooltip="Capture and create a special icon with a pink background.">
+        <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+        <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+        <command bVariableToggle="0" text="general.run_file_parameters(r'icon_object_capture.py', '--special --pink')" type="1"/>
+    </macro>
+</toolboxmacros>

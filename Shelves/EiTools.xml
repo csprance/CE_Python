@@ -1,0 +1,30 @@
+<toolboxmacros>
+    <macro icon="" shortcut="" title="Kill Editor" tooltip="Instantly kills the editor">
+        <command bVariableToggle="0" text="general.run_file(r'kill_editor.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Text Writer" tooltip="Create some designer text that can be converted to a cgf">
+        <command bVariableToggle="0" text="general.run_file(r'text_writer/__init__.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Open In Explorer" tooltip="Open Selected Geometry in Explorer">
+        <command bVariableToggle="0" text="general.run_file(r'open_in_explorer.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Take Screenshot" tooltip="Take a screenshot at 4k">
+        <command bVariableToggle="0" text="r_DisplayInfo = 0" type="2"/>
+        <command bVariableToggle="0" text="r_AntiAliasingMode = 3" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResWidth = 3840" type="2"/>
+        <command bVariableToggle="0" text="r_CustomResHeight = 2160" type="2"/>
+        <command bVariableToggle="0" text="general.run_file(r'take_screenshot.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Atlas" tooltip="Open Atlas">
+        <command bVariableToggle="0" text="general.run_file(r'run_atlas.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="Batch Icon" tooltip="Take A Batch Screenshot for Icons">
+        <command bVariableToggle="0" text="general.run_file(r'create_batch_icons.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="GrabEntity(s)" tooltip="Grab one or many entities by xml">
+        <command bVariableToggle="0" text="general.run_file(r'grabentities.py')" type="1"/>
+    </macro>
+    <macro icon="" shortcut="" title="GrabCGF(s)" tooltip="Grab one or many cgf files">
+        <command bVariableToggle="0" text="general.run_file(r'grab_cgfs_from_folder.py')" type="1"/>
+    </macro>
+</toolboxmacros>

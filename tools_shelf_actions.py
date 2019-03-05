@@ -1,4 +1,4 @@
-import time, re, os, sys, itertools, ast 
+import time, re, os, sys, itertools, ast
 import general
 
 global ctrlFile
